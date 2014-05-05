@@ -12,8 +12,10 @@ Pod::Spec.new do |s|
   'Mark van den Broek' => 'http://github.com/heyhoo',
   'Evan Cordell'          => 'http://github.com/ecordell',
   'Greg Combs'           => 'http://github.com/grgcombs',
-  'Hari Karam Singh'    => 'http://github.com/Club15CC' }
-  s.source       = { :git => 'https://github.com/delackner/ActionSheetPicker.git' }
+  'Hari Karam Singh'    => 'http://github.com/Club15CC',
+  'Seth Delackner'      => 'http://github.com/delackner'
+  }
+  s.source       = { :git => 'https://github.com/mlienert/ActionSheetPicker.git' }
   s.platform       = :ios
   s.source_files  = 'ActionSheetPicker.h', 'Pickers/*.{h,m}'
   s.framework   = 'UIKit'
